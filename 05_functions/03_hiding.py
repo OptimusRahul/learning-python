@@ -1,0 +1,15 @@
+def get_input():
+    print("Getting user input")
+
+def validate_input():
+    print("Validating user input")
+
+def save_to_db():
+    print("Saving user input to database")
+
+def register_user():
+    get_input()
+    validate_input()
+    save_to_db()
+
+register_user()
